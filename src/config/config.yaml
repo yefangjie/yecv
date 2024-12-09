@@ -1,0 +1,140 @@
+# Profile Configuration
+
+# Theme Settings
+theme:
+  darkMode:
+    enabled: true                # Enable/disable dark mode feature
+    auto: true                  # Enable auto dark mode
+    type: 'system'             # 'system' for browser preference, 'time' for time-based
+    timeRange:                  # Only used when type is 'time'
+      start: '19:00'           # Dark mode start time (24-hour format)
+      end: '07:00'             # Dark mode end time (24-hour format)
+
+# Site Configuration
+site:
+  title: "Steven Lynn's Profile"  # Browser tab title
+  favicon: "favicon.ico"         # Favicon filename only
+  repo: "stvlynn/EasyProfile"    # GitHub repository name
+  badges:                        # Social badges configuration
+    buymeacoffee:
+      slug: "stvlynn"           # Your buymeacoffee username
+      color: "#FFDD00"          # Button color
+    twitter:
+      username: "stv_lynn"       # Your Twitter username
+  analytics:                     # Analytics configuration
+    google:
+      id: ""                    # Your Google Analytics ID (e.g., G-XXXXXXXXXX)
+      enabled: false            # Set to true to enable Google Analytics
+
+# OpenGraph Meta Configuration
+og:
+  description: "Steven Lynn's About Page"
+  image:
+    url: "https://cdn.statically.io/gh/stvlynn/cloudimg@master/blog/2310/image.64v30jxjis00.webp"
+    width: 1189
+    height: 795
+
+# Personal Info
+personal:
+  avatar: 'assets/IMG_3513.jpeg'  
+  name: 'Steven Lynn'
+  description: 'AI Dev & Technical Writer'
+  email: 'i@stv.pm'  # Optional
+  phone: ''    # Optional
+  social:
+    github: 'stvlynn'        # Optional
+    twitter: 'stv_lynn'      # Optional
+    linkedin: ''             # Optional
+    facebook: ''             # Optional
+    telegram: 'stvlynn'      # Optional
+    instagram: ''            # Optional
+    youtube: ''             # Optional
+    medium: ''              # Optional
+    reddit: ''              # Optional
+    discord: ''             # Optional
+    weibo: ''               # Optional
+    zhihu: ''               # Optional
+    bilibili: ''            # Optional
+    huggingface: 'stvlynn'         # Optional
+  position: 0
+
+# About Me
+about:
+  title: 'Intro'
+  description: 'A university student. Intership @Dify. Focusing on LLM agents development.'
+  position: 1
+
+# Technical Skills
+skills:
+  # Skills configuration section
+  # level: 
+  #   1 = Beginner
+  #   2 = Intermediate 
+  #   3 = Advanced
+  # name: should match one of the keys in icons.yaml, available options:
+  # Technology stack:
+  #   - vuejs, react, angular, nodejs
+  #   - python, java, cpp, golang
+  #   - docker, kubernetes, linux
+  #   - llm, swift, matlab
+  # Development areas:
+  #   - machine-learning, deep-learning
+  #   - computer-vision, natural-language-processing
+  #   - web-development, mobile-development
+  #   - backend, frontend, database
+  #   - cloud, devops, security
+  #   - testing, api, microservices
+  title: 'Skills'
+  abilities:
+    - name: vuejs      # Frontend framework, used in multiple personal projects
+      level: 1  # Advanced
+    - name: python     # Primary programming language, used for AI/ML projects
+      level: 2  # Advanced
+    - name: matlab     # Scientific computing and numerical analysis
+      level: 2  # Intermediate
+    - name: docker     # Containerization and deployment
+      level: 2  # Intermediate
+    - name: linux      # System administration and development environment
+      level: 2  # Intermediate
+    - name: llm        # Large Language Model development
+      level: 3  # Advanced
+    - name: swift      # iOS app development
+      level: 1  # Beginner
+  position: 2
+
+# Projects
+projects:
+  title: 'Projects'
+  items:
+    - title: 'Twi.am - Twitter MBTI Receipt'
+      description: 'A website generates receipt-style analysis of your MBTI using data scraped from twitter profile.'
+      tags: ['Vue3', 'TailwindCSS', 'LLM']
+      link: 'https://github.com/stvlynn/twi.am'  # Optional - URL to project
+    - title: 'EasyReceipt'
+      description: 'An iOS APP that helps you scan receipts using LLM vision and sync to Feishu.'
+      tags: ['Swift', 'LLM']
+      link: 'https://github.com/stvlynn/EasyReceiptSwift'  # Optional - URL to project
+    - title: 'Reflection-Chinese-32B'
+      description: 'A fine-tuned LLM with CoT.'
+      tags: ['LLM']
+      link: 'https://huggingface.co/stvlynn/Reflection-Chinese-32B'  # Optional - URL to project
+  position: 3
+
+# Education (Optional)
+education:
+  title: '教育经历'
+  items:
+    - school: '示例大学'
+      time: '2015-2019'
+    - school: '示例研究生院'
+      time: '2019-2022'
+  position: 4
+
+# Links (Optional)
+links:
+  title: 'Link'
+  items:
+    - name: 'Blog'
+      url: 'https://blog.stv.pm'
+      avatar: 'assets/IMG_3513.jpeg'
+  position: 4
